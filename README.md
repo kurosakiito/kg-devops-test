@@ -2,9 +2,9 @@
 
 __Devops Section__
 
-TODO: Chef + Bonus section
+TODO: Remove hardcoded values (subnets) + Bonus section
 
-Upload *.json files in Cloudformation via AWS Console or AWS Cli and Create Stack
+Change the hardcoded values in LBv2 section (subnets in my personal default vpc), then upload *.json files in Cloudformation via AWS Console or AWS Cli and Create Stack
 
 
 __Scripting Section__
