@@ -1,0 +1,24 @@
+{
+    "AWSTemplateFormatVersion" : "2010-09-09",
+
+    "Description" : "KG DevOps SQS CF stack",
+
+    "Resources" : {
+
+          "InterviewSQS" : {
+            "Type" : "AWS::SQS::Queue",
+            "Properties" : { 
+              "Tags" : [ { "Key" : "Name", "Value" : "Gavin Ho" } ]
+          }
+         },
+
+ },
+
+    "Outputs" : {
+        "QueueURL" : {
+            "Description" : "Return Queue URL",
+            "Value" : { "Ref" : "InterviewSQS" }
+          }
+        }
+
+}
