@@ -40,7 +40,7 @@ with open(file) as json_data:
 
 
 ## Just to show thought process, let's do the sorting bonus
-## Looped through original json data, and appended to an empty array
+## Looped through original json data, and appended to an empty python dictionary
 ## By doing this, I'm able to sort by value [1]
 ## We can use reverse=True to sort by descending
  	for i in load:
