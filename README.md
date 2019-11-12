@@ -14,9 +14,13 @@ Chef (changed httpd2 to apache2 for my environment)
 3. Ran the following commands to check changes
     
     ls -lrt /etc/motd ## list file
+    
     crontab -l ## see cron entry
+    
     cat /etc/passwd ## see new user
+    
     date ## show datetime and timezone
+    
 
 __Scripting Section__
 
